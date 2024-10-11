@@ -1,0 +1,15 @@
+Docstrings:
+...  # This part will be filled by the checker
+
+Examples:
+    >>> add_integer(1, 2)
+    3
+    >>> add_integer(100, -2)
+    98
+    >>> add_integer(2)
+    100  # Because b is set to 98 by default
+    >>> add_integer(100.3, -2)
+    98
+    >>> add_integer("1", 2)
+    Traceback (most recent call last):
+    TypeError: a must be an integer or b must be an integer
